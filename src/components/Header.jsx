@@ -10,7 +10,7 @@ const Header = () => {
 
     return (
         <div className="header" style={{
-            backgroundColor: themeName === "Dark" ? "#6200EE" : "#BB86FC",  
+            backgroundColor: themeName === "Dark" ? "#6200EE" : "#3700B3",  
         }}>
         <div className="container" >
             <h3>Todo list</h3>

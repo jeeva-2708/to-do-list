@@ -15,6 +15,7 @@ const TaskForm = () => {
           onChange={(e) => setInput(e.target.value)} placeholder="Enter your task"/>
           <button id="btn" onClick={addTodo}>ADD</button>
         </div>
+       
       </Card>
   
   );
