@@ -19,7 +19,7 @@
 /* Task Form starts */
 .card-one {
   margin: 20px 0;
-  padding: 30px 50px;
+  padding: 20px 20px;
   background-color: #ededed !important;
   border: none !important;
   border-radius: 12px !important;
@@ -56,12 +56,13 @@
 .task-list > li {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   
 }
 .task-list > li > h3{
-  font-size: 25px;
+  font-size: 20px;
   cursor: pointer;
- 
+  
 }
 .strike-yes{
   text-decoration: line-through gray;
@@ -72,5 +73,17 @@
   display: flex;
   align-items: center;;
   gap: 10px;
-  font-size: 30px;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px){
+  .card-one { 
+    padding: 30px 50px;
+  }
+  .task-list > li > h3{
+    font-size: 25px;
+  }
+  .task-list > li > div{
+    font-size: 30px;
+  }
 }
